@@ -57,6 +57,11 @@ button {
 ul, li {
     list-style: none;
 }
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 ul {
     text-align: left;
     padding: 12px 20px;
@@ -69,4 +74,8 @@ ul {
 }
 .done {
     text-decoration: line-through;
+}
+i {
+    color: red;
+    display: inline-block;
 }
