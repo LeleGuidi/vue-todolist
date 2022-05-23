@@ -1,5 +1,72 @@
+/*----------------
+    RESET
+----------------*/
 *{
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: 0;
+}
+
+/*----------------
+    COMMON
+----------------*/
+body {
+    background-color: #274472;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/*----------------
+    TYPO
+----------------*/
+h1 {
+    font-size: 40px;
+    color: #5885AF;
+}
+h2 {
+    font-size: 35px;w
+    color: #41729F;
+}
+
+/*----------------
+    MAIN CONTAINER
+----------------*/
+.container {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #C3E0E5;
+    box-shadow:  10px 15px 3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+form{
+    width: 100%;
+    padding-bottom: 10px;
+}
+input[type=text], button {
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(145, 145, 145);
+  }
+button {
+    background-color: white;
+}   
+ul, li {
+    list-style: none;
+}
+ul {
+    text-align: left;
+    padding: 12px 20px;
+    background-color: #5885AF;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    color: #C3E0E5;
+}
+.done {
+    text-decoration: line-through;
 }
