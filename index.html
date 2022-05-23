@@ -22,8 +22,8 @@
         <h1>To Do List</h1>
 
         <!-- Form per aggiungere cose alla lista da fare  -->
-        <form>
-            <input type="text" placeholder="Nuovo todo">
+        <form @submit.prevent="addTodo()">
+            <input type="text" placeholder="Nuovo todo" v-model="newTodo" required>
             <button type="submit">Aggiungi</button>
         </form>
         <!-- /Form per aggiungere cose alla lista da fare  -->
