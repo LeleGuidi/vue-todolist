@@ -31,7 +31,7 @@
         <!-- Lista di cose da fare  -->
         <ul v-if="todos.length > 0">
             <li v-for="(elm, index) in todos">
-                <span :class="elm.done ? `done` : ``">{{elm.todo}}</span>
+                <span :class="elm.done ? `done` : ``" @click="elm.done = !elm.done">{{elm.todo}}</span>
                 <i class="fa-solid fa-xmark" @click="removeTodo(index)"></i>
             </li>
         </ul>
